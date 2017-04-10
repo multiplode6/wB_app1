@@ -1,0 +1,358 @@
+
+@font-face {
+    font-family:'e4005c467cc7bdbfac55a43696ebc2f6';
+    src: url('http://multiplode6.com/test/wBomb/font/e4005c467cc7bdbfac55a43696ebc2f6.tff') format('truetype');
+
+    src: local('e4005c467cc7bdbfac55a43696ebc2f6.ttf'),
+         url('http://multiplode6.com/test/wBomb/font/e4005c467cc7bdbfac55a43696ebc2f6.ttf') format('truetype');
+}
+
+/*.ache {
+    font-family:HeadlinerNo.45 DEMO.ttf);
+}*/
+
+/** {
+    box-sizing: border-box;
+}*/
+
+.intro {
+    width: 800px;
+    margin:0 auto;
+}
+.intro p, .bomb ul {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #888;
+    list-style-type: none;
+    max-width: 100%
+
+}
+
+.ttle {
+    max-width: 475px;
+    height: auto;
+    margin: 0 auto
+}
+.bomb {
+    max-width:350px;
+    /*padding-bottom: 30px*/
+}
+/*.bomb {
+    padding:25px
+}*/
+
+.bigBomb {
+	width:75% !important;
+	padding:10px 15px;
+    font-size: 1em;
+    margin:0 auto;
+	}
+.bombContent {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+  
+}
+
+
+
+/*Para dos columnas*/
+.TWWII {
+	content: "";
+    display: table;
+    clear: both;
+    /*width: 100%;*/
+    margin: 0 auto;
+}
+.TWWII li {
+    /*padding: 0 5px*/
+}
+.single {
+    margin: 0 auto 5px;
+    text-align: left;
+}
+.single h2 {
+    text-align: center;
+}
+.columnA, .columnB {
+	text-align: left;
+}
+
+ul, li, h4, .source a {
+    color: #ddd !important;
+}
+
+.single ul {
+    background-color: #888;
+    padding: 10px 30px;     
+    /*-webkit-box-shadow:inset 1px 1px 3px 1px rgba(0,0,0,.5);
+box-shadow:inset 1px 1px 3px 1px rgba(0,0,0,.5);*/
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin:20px 10px;
+}
+
+.columnA ul, .columnB ul {
+    
+    background-color: #888;
+    padding: 10px 30px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    /*width: 325px*/
+    margin: 0 10px;
+    max-width: 100%
+}
+.columnA {
+	float: left;
+    width: 50%;
+    margin-bottom: 10px
+}
+.columnB {
+    float: right;
+    width: 50%;
+    margin-bottom: 10px
+}
+
+@media screen and (max-device-width: 800px) {
+    /*h1 {
+        font-size:3em !important
+    }*/
+    .intro {
+        width: 100%
+    }
+    .columnA, .columnB {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+}
+
+.pioneers {
+    border: 12px solid #888;
+    -webkit-border-radius: 100px 100px 100px 100px;
+border-radius: 100px 100px 100px 100px;
+}
+.alamos {
+    border: 12px solid #888;
+    -webkit-border-radius: 300px 300px 300px 300px;
+border-radius: 300px 300px 300px 300px;
+margin: 0 30px
+}
+
+/*Para tres columnas*/
+.tres:after {
+    content: "";
+    display: table;
+    clear: both;
+
+    }
+.tres > div{
+    float: left;
+    width: 33.33%;
+    line-height: 80px
+}
+/*tresMF********************************/
+.tresMF:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 30px
+}
+.tresMF > div {
+    float: left;
+    width: 33.33%;
+}
+.tresMF p {
+    font-size: 1.1em;
+    width: 90%;
+    padding:10px 0;
+    margin-top: 20px
+}
+@media screen and (max-device-width: 650px) { /*breakpoint*/
+    .tresMF > div {
+        float: none;
+        width: 100%;
+    }
+    .tresMF p {
+        width: 50%;
+        margin-bottom: 30px
+    }
+    .tres > div {
+        float: none;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .radio {
+        vertical-align:middle; margin:30px auto;
+    }
+    h1 {
+        font-size: 2.5em !important
+    }
+    .brace {
+        margin-top: 20px;
+        width:80%;
+    }
+}
+/*tresMF********************************/
+
+
+
+.deadL {
+    margin-bottom: 20px
+}
+
+
+
+.mapImg {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#section0, #section2, #section4, #section6 {
+	background:#777;
+    padding: 135px 0
+	}
+#section1, #section3, #section5 {
+	background:#666;
+    padding: 135px 0
+	}
+
+
+
+
+
+.complexMI {
+    margin: 0 7px;
+}
+.firstCall {
+    margin: 50px auto
+}
+.map {
+    margin: 50px auto 0
+}
+
+.calendar {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+background-color: #bababa;
+text-shadow: #ccc 1px 1px 0;
+    background: #999;
+    width:90px;
+    margin:  7px auto 25px;
+    padding: 3px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+-webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,.3);
+box-shadow: 1px 1px 3px 1px rgba(0,0,0,.3);
+}
+
+.calendarBomb {
+    width: 220px !important
+}
+
+strong { text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+color: #444 }
+
+.enolaG {
+    margin: 50px auto;
+    height: 350px;
+    background: url("../img/japan.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+.tres p strong, .single p strong {
+    color:#ddd !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3) !important
+}
+
+
+/*font*/
+
+
+@media screen and (max-height: 600px){
+   .scrollStyle {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-left: 20px
+    }   
+}
+
+img {
+    max-width: 100%;
+    }
+
+/*scrollBtn*/
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../img/icon_top.png') no-repeat;
+}
+a .scrollup {
+    outline: none;
+}
+.comic {
+    font-family: 'Bangers';
+    text-align:left !important;
+    color: #444;
+    font-size: 1.7em !important;
+    }
+
+
+
+.epilogue {
+    -webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+border: 9px solid #888;
+background: #000
+}
+
+.epiYt {
+    position: relative;
+    top: 37px;
+    left: 35px;
+    z-index: 2;
+}
+
+.bombTst {
+    /*border: 12px solid #888;*/
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.borderWB {
+    -webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.booom {
+    z-index: 19;
+    position: relative;
+    top:-65px;
+}
+
+.source {
+    margin: 50px auto
+}
+.source ul {
+    list-style-type: none;
+}
+.source a:hover, .source a:visited {
+    color: #444444 !important;
+}
